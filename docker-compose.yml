@@ -1,6 +1,7 @@
 services:
   db:
     container_name: pg_container
+    hostname: ds
     image: postgres
     restart: always
     ports:
