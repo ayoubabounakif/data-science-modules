@@ -11,4 +11,4 @@ $MYPATH/bin/conda config --set auto_activate_base false;
 source ~/.zshrc;
 
 # Create an environment for 42AI
-conda create -y --name 42AI-$USER python=3.10 jupyter pandas pycodestyle numpy matplotlib sqlalchemy psycopg2 seaborn scikit-learn
+conda create -y --name 42AI-$USER python=3.10 jupyter pandas pycodestyle numpy matplotlib sqlalchemy psycopg2 seaborn scikit-learn statsmodels
